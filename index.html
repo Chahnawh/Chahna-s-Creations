@@ -5,35 +5,98 @@
     <title>Chahna's Creations </title>
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+    </script>
+
 </head>
 
 <body>
-    <section id="apps">
-        <h1> Apps </h1>
-        <div class="line"> </div>
-        <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/sIHP_lTil0sUZ16pa-HvFnMgvDyl9XT9bp1idvQwNcM/embed"></iframe>
+    <div class="container">
+        <section id="apps">
+            <h1> Apps </h1>
+            <div class="line"> </div>
+            <div class="carousel slide" id="mycar2">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center>
+                            <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/sIHP_lTil0sUZ16pa-HvFnMgvDyl9XT9bp1idvQwNcM/embed"></iframe>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/4Yul2gsiKewTHGZaROXVN0h_4JADN2t_WKMAfJSaTgI/embed"></iframe>
+                        </center>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#mycar2" data-slide="prev">
+                    <span class="glyphicon  glyphicon-chevron-left"> </span>
+                </a>
+                <a class="right carousel-control" href="#mycar2" data-slide="next">
+                    <span class="glyphicon  glyphicon-chevron-right"> </span>
+                </a>
+            </div>
+        </section>
 
-        <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/4Yul2gsiKewTHGZaROXVN0h_4JADN2t_WKMAfJSaTgI/embed"></iframe>
-    </section>
+        <section id="games">
+            <h1> Games </h1>
+            <div class="line"> </div>
+            <div class="carousel slide" id="mycar">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center>
+                            <a href="https://studio.code.org/projects/playlab/Xlq8LRnNCY4twfAV9hMExhzrZToaZffh0o3AnqNumWg" target="_blank">
+                                <img src="Dragon.PNG">
+                            </a>
+                            <div class="carousel-content">
+                                <p> Dragon Attack</p>
+                            </div>
+                        </center>
+                    </div>
 
-    <section id="games">
-        <h1> Games </h1>
-        <div class="line"> </div>
-        <a href="https://studio.code.org/projects/playlab/Xlq8LRnNCY4twfAV9hMExhzrZToaZffh0o3AnqNumWg" target="_blank">
-            <img src="Dragon.PNG">
-        </a>
-        <a href="https://studio.code.org/projects/playlab/RHjOfzIpwUAHa27K4MqxIGJdKubwhaCejwDOCT9V_Oc" target="_blank">
-            <img src="odd.PNG">
-        </a>
-    </section>
 
-    <section id="chats">
-        <h1> Chat Bot </h1>
-        <div class="line"> </div>
-        <iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/b46ee82f-82ea-440f-8b61-b2823f9a5e58">
-        </iframe>
-    </section>
+                    <div class="item">
+                        <center>
+                            <a href="https://studio.code.org/projects/playlab/RHjOfzIpwUAHa27K4MqxIGJdKubwhaCejwDOCT9V_Oc" target="_blank">
+                                <img src="odd.PNG">
+                            </a>
+                            <div class="carousel-content">
+                                <p> Helping Jashawn</p>
+                            </div>
+                        </center>
 
-</body>
+                    </div>
+                </div>
+                <!--left and right controls-->
+                <a class="left carousel-control" href="#mycar" data-slide="prev">
+                    <span class="glyphicon  glyphicon-chevron-left"> </span>
+                </a>
+                <a class="right carousel-control" href="#mycar" data-slide="next">
+                    <span class="glyphicon  glyphicon-chevron-right"> </span>
+                </a>
+            </div>
 
-</html>
+
+
+
+
+
+
+
+
+
+        </section>
+
+        <section id="chats">
+            <h1> Chat Bot </h1>
+            <div class="line"> </div>
+            <iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/b46ee82f-82ea-440f-8b61-b2823f9a5e58">
+            </iframe>
+        </section>
+
+    </div>
+
+</body></html>
